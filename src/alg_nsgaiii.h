@@ -1,16 +1,16 @@
 #ifndef NSGAIII__
 #define NSGAIII__
 
-#include <cstddef>
 #include <string>
+#include <cstddef>
 #include <fstream>
 #include <vector>
 
 // ----------------------------------------------------------------------------------
 //		NSGAIII
 //
-// Deb and Jain, "An Evolutionary Many-Objective Optimization Algorithm Using 
-// Reference-point Based Non-dominated Sorting Approach, Part I: Solving Problems with 
+// Deb and Jain, "An Evolutionary Many-Objective Optimization Algorithm Using
+// Reference-point Based Non-dominated Sorting Approach, Part I: Solving Problems with
 // Box Constraints," IEEE Transactions on Evolutionary Computation, to appear.
 //
 // http://dx.doi.org/10.1109/TEVC.2013.2281535

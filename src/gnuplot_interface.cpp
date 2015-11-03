@@ -23,7 +23,7 @@ Gnuplot::Gnuplot():gnuplotpipe(0)
 // because I choose the terminal to output files so I don't want to see the window
 
 #ifndef DO_NOT_HAVE_GNUPLOT
-    gnuplotpipe=_popen("gnuplot","w");
+    gnuplotpipe=_popen("gnuplot\bin\gnuplot","w");
 
     if (!gnuplotpipe)
     {

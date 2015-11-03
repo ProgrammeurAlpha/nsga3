@@ -219,3 +219,223 @@
 	"problem_base.h"
 	<cstddef>
 
+1444044682 source:u:\bureau\github\nsga3\src\main.cpp
+	"problem_base.h"
+	"alg_nsgaiii.h"
+	"alg_population.h"
+	"exp_experiment.h"
+	<ctime>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	<string>
+	"gnuplot_interface.h"
+	"log.h"
+	"aux_misc.h"
+	"exp_indicator.h"
+
+1402137144 u:\bureau\github\nsga3\src\problem_base.h
+	<string>
+	<vector>
+
+1408015074 u:\bureau\github\nsga3\src\alg_nsgaiii.h
+	<cstddef>
+	<string>
+	<fstream>
+	<vector>
+
+1408013032 u:\bureau\github\nsga3\src\alg_population.h
+	"alg_individual.h"
+	<vector>
+
+1402137836 u:\bureau\github\nsga3\src\alg_individual.h
+	<vector>
+	<ostream>
+
+1408002094 u:\bureau\github\nsga3\src\exp_experiment.h
+	<fstream>
+
+1402138508 u:\bureau\github\nsga3\src\gnuplot_interface.h
+	<string>
+	<stdio.h>
+	<string>
+	<cstddef>
+
+1408084852 u:\bureau\github\nsga3\src\log.h
+	<string>
+	<iostream>
+
+1405839620 u:\bureau\github\nsga3\src\aux_misc.h
+	<string>
+
+1405841722 u:\bureau\github\nsga3\src\exp_indicator.h
+	<iostream>
+	<vector>
+
+1408013158 source:u:\bureau\github\nsga3\src\alg_comparator.cpp
+	"alg_comparator.h"
+	"alg_individual.h"
+
+1402137178 u:\bureau\github\nsga3\src\alg_comparator.h
+
+1408013158 source:u:\bureau\github\nsga3\src\alg_crossover.cpp
+	"alg_crossover.h"
+	"alg_individual.h"
+	"aux_math.h"
+	"problem_base.h"
+	<cmath>
+	<algorithm>
+	<cstddef>
+
+1402137238 u:\bureau\github\nsga3\src\alg_crossover.h
+
+1444034362 u:\bureau\github\nsga3\src\aux_math.h
+	<cstdlib>
+	<vector>
+	<cmath>
+
+1444034366 source:u:\bureau\github\nsga3\src\alg_environmental_selection.cpp
+	"alg_environmental_selection.h"
+	"alg_population.h"
+	"aux_math.h"
+	"alg_nondominated_sort.h"
+	"alg_reference_point.h"
+	<limits>
+	<algorithm>
+	<iostream>
+
+1408084092 u:\bureau\github\nsga3\src\alg_environmental_selection.h
+	<vector>
+
+1402138824 u:\bureau\github\nsga3\src\alg_nondominated_sort.h
+	<vector>
+
+1408015016 u:\bureau\github\nsga3\src\alg_reference_point.h
+	<vector>
+	<utility>
+	"alg_nondominated_sort.h"
+
+1408013032 source:u:\bureau\github\nsga3\src\alg_individual.cpp
+	"alg_individual.h"
+	"problem_base.h"
+
+1408013158 source:u:\bureau\github\nsga3\src\alg_initialization.cpp
+	"alg_initialization.h"
+	"problem_base.h"
+	"alg_individual.h"
+	"alg_population.h"
+	"aux_math.h"
+	<cstddef>
+
+1402137850 u:\bureau\github\nsga3\src\alg_initialization.h
+
+1408013094 source:u:\bureau\github\nsga3\src\alg_mutation.cpp
+	"alg_mutation.h"
+	"alg_individual.h"
+	"aux_math.h"
+	"problem_base.h"
+	<cstddef>
+	<algorithm>
+
+1402138118 u:\bureau\github\nsga3\src\alg_mutation.h
+
+1408013094 source:u:\bureau\github\nsga3\src\alg_nondominated_sort.cpp
+	"alg_comparator.h"
+	"alg_nondominated_sort.h"
+	"alg_population.h"
+
+1444045416 source:u:\bureau\github\nsga3\src\alg_nsgaiii.cpp
+	"alg_nsgaiii.h"
+	"problem_base.h"
+	"alg_individual.h"
+	"alg_reference_point.h"
+	"alg_population.h"
+	"alg_initialization.h"
+	"alg_crossover.h"
+	"alg_mutation.h"
+	"alg_environmental_selection.h"
+	"gnuplot_interface.h"
+	"log.h"
+	"windows.h"
+	<vector>
+	<fstream>
+
+1408016818 source:u:\bureau\github\nsga3\src\alg_reference_point.cpp
+	"alg_reference_point.h"
+	"alg_population.h"
+	"aux_math.h"
+	<limits>
+
+1408084168 source:u:\bureau\github\nsga3\src\aux_math.cpp
+	<vector>
+	<limits>
+	"aux_math.h"
+	<cmath>
+
+1408013094 source:u:\bureau\github\nsga3\src\aux_misc.cpp
+	"aux_misc.h"
+	<sstream>
+	<string>
+
+1408013128 source:u:\bureau\github\nsga3\src\exp_experiment.cpp
+	"exp_experiment.h"
+	"problem_factory.h"
+	"alg_nsgaiii.h"
+
+1408013032 u:\bureau\github\nsga3\src\problem_factory.h
+	"problem_base.h"
+	<fstream>
+
+1444034678 source:u:\bureau\github\nsga3\src\exp_indicator.cpp
+	"exp_indicator.h"
+	<sstream>
+	<fstream>
+	<cmath>
+	<limits>
+	<algorithm>
+
+1444035724 source:u:\bureau\github\nsga3\src\gnuplot_interface.cpp
+	"gnuplot_interface.h"
+	<iostream>
+	<sstream>
+
+1408013094 source:u:\bureau\github\nsga3\src\log.cpp
+	"log.h"
+	"alg_population.h"
+	"gnuplot_interface.h"
+	<fstream>
+
+1408013094 source:u:\bureau\github\nsga3\src\problem_dtlz.cpp
+	"problem_DTLZ.h"
+	"alg_individual.h"
+	"aux_math.h"
+	"aux_misc.h"
+	<cmath>
+	<vector>
+
+1408013032 u:\bureau\github\nsga3\src\problem_dtlz.h
+	"problem_base.h"
+	<cstddef>
+
+1408081694 source:u:\bureau\github\nsga3\src\problem_factory.cpp
+	"problem_factory.h"
+	"problem_DTLZ.h"
+	"problem_self.h"
+	<string>
+
+1408081524 u:\bureau\github\nsga3\src\problem_self.h
+	"problem_base.h"
+
+1408084894 source:u:\bureau\github\nsga3\src\problem_self.cpp
+	"problem_self.h"
+	"alg_individual.h"
+
+1408013032 source:u:\bureau\github\nsga3\src\problem_zdt.cpp
+	"problem_ZDT.h"
+	"alg_individual.h"
+	<cmath>
+
+1408013172 u:\bureau\github\nsga3\src\problem_zdt.h
+	"problem_base.h"
+	<cstddef>
+
